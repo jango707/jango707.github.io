@@ -14,7 +14,7 @@ class SportComponent extends Component{
                     </div>
                 </Cell>
                 <Cell col={4} className="sport-content">
-                    <img src={this.props.img} />
+                    <img src={this.props.img}  alt="img"/>
                 </Cell>
             </Grid>        
             

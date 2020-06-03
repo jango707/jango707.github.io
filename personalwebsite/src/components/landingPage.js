@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import pic from '../assets/jang.jpeg';
-import devPost from '../assets/devpost.svg';
+
 
 class Landing extends Component{
     render(){

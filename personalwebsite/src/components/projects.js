@@ -18,21 +18,23 @@ class Projects extends Component{
     buttonsgit(git){
         if(git){
             return(
-            <a href={git} target="_blank"><Button colored style={{ color:'#fff'}} ripple >GitHub</Button></a>   
+               
+            <a href={git}  rel="noopener noreferrer" target="_blank"><Button colored style={{ color:'#fff'}} ripple >GitHub</Button></a>   
+                
             )
         }
     }
     buttonsdemo(demo){
         if(demo){
             return(
-            <a href={demo} target="_blank"><Button colored style={{color:'#fff'}} ripple>Demo</Button></a>
+            <a href={demo}  rel="noopener noreferrer" target="_blank"><Button colored style={{color:'#fff'}} ripple>Demo</Button></a>
             )
         }
     }
     buttonsdev(dev){
         if(dev){
             return(
-            <a href={dev} target="_blank"><Button colored style={{color:'#fff'}} ripple>DevPost</Button></a>
+            <a href={dev} rel="noopener noreferrer" target="_blank"><Button colored style={{color:'#fff'}} ripple>DevPost</Button></a>
             )
         }
     }

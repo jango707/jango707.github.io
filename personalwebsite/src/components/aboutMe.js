@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell,Drawer, Layout, Navigation } from 'react-mdl';
+import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Studies from './studies';
 import Interests from './interests';

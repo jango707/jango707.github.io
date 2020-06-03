@@ -8,7 +8,7 @@ class SportComponent extends Component{
         return(            
             <Grid>
                 <Cell col={4} className="sport-content">
-                    <img src={this.props.img} />
+                    <img src={this.props.img} alt="img" />
                 </Cell>
                 <Cell className="sport-content" col={8}>
                     <div id={this.props.title}>
